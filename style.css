@@ -67,89 +67,9 @@ h4{
 h3,h2{
 	text-align: center;
 }
-.school{
-border-style: ;
- border-width: 3px;
- text-align: center;
- padding-right: 50px;
- padding-left: 50px;
- margin-top: ;
-  margin-bottom: ;
-  margin-right: 150px;
-  margin-left: 80px; 
-}
-
-.experience{
-	border-style: ;
- 	border-width: 3px;
- 	text-align: center;
- 	padding-right: 150px;
- 	padding-left: 150px;
- 	margin-top: ;
-  margin-bottom: ;
-  margin-right: 150px;
-  margin-left: 80px;
-}
-
-.jiujitsu, .blockchain, .project{
-	border-style: ;
- 	border-width: 3px;
- 	text-align: center;
- 	padding-right: 100px;
- 	padding-left: 100px;
- 	margin-top: ;
-  margin-bottom: ;
-  margin-right: 50px;
-  margin-left: 50px;s
-}
 
 
-div.gallery {
-  border: 1px solid #ccc;
-}
 
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.responsive {
-  padding: 50px;
-  float: left;
-  width: 50%;
-}
-
-@media only screen and (max-width: 700px) {
-  .responsive {
-    width: 50%;
-    margin: 6px 0;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
-}
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 .start{
 	text-align: center;
