@@ -1,6 +1,7 @@
 body {
-  background-color: lightblue;
+  background-color: white;
   font-family: 'Roboto', sans-serif;
+
 }
 
 ul {
@@ -44,6 +45,14 @@ h2{
 h3{
 	font-size: 1.5rem;
 }
+
+h4{
+  font-size: 4rem;
+  text-align: center;
+  padding-top: 7%;
+}
+
+
 .potrait{
 	display: block;
   margin-left: auto;
@@ -79,7 +88,19 @@ border-style: ;
  	margin-top: ;
   margin-bottom: ;
   margin-right: 150px;
-  margin-left: 80px;s
+  margin-left: 80px;
+}
+
+.jiujitsu, .blockchain, .project{
+	border-style: ;
+ 	border-width: 3px;
+ 	text-align: center;
+ 	padding-right: 100px;
+ 	padding-left: 100px;
+ 	margin-top: ;
+  margin-bottom: ;
+  margin-right: 50px;
+  margin-left: 50px;s
 }
 
 
@@ -128,4 +149,15 @@ div.desc {
   content: "";
   display: table;
   clear: both;
+}
+
+.start{
+	text-align: center;
+
+}
+body{
+	background-image: url();
+	background-size: cover;
+	background-position: center;
+	font-color:white;
 }
