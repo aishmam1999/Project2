@@ -1,6 +1,7 @@
 body {
   background-color: white;
   font-family: 'Roboto', sans-serif;
+
 }
 
 ul {
@@ -30,21 +31,19 @@ li a:hover {
 }
 
 h1{
-	text-align: center;
-	font-size: 3rem;
+  text-align: center;
+  font-size: 3rem;
 }
 p{
-	font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 h2{
-	font-size: 2rem;
-  text-align: center;
+  font-size: 2rem;
 }
 
 h3{
-	font-size: 1.5rem;
-  text-align: center;
+  font-size: 1.5rem;
 }
 
 h4{
@@ -54,9 +53,113 @@ h4{
 }
 
 
+.potrait{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+   max-width: 250px;
+  height: 250px;
+  background-color: powderblue;
 
+}
+
+h3,h2{
+  text-align: center;
+}
+.school{
+border-style: ;
+ border-width: 3px;
+ text-align: center;
+ padding-right: 50px;
+ padding-left: 50px;
+ margin-top: ;
+  margin-bottom: ;
+  margin-right: 150px;
+  margin-left: 80px; 
+}
+
+.experience{
+  border-style: ;
+  border-width: 3px;
+  text-align: center;
+  padding-right: 150px;
+  padding-left: 150px;
+  margin-top: ;
+  margin-bottom: ;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+
+.jiujitsu, .blockchain, .project{
+  border-style: ;
+  border-width: 3px;
+  text-align: center;
+  padding-right: 100px;
+  padding-left: 100px;
+  margin: auto;
+}
+
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 50px;
+  float: left;
+  width: 50%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 50%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 .start{
-	text-align: center;
+  text-align: center;
+
+}
+.body_body{
+  background-image: url(https://images.unsplash.com/photo-1499088513455-78ed88b7a5b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1942&q=80);
+  background-size: cover;
+  background-position: center;
+  font-color:white;
+}
+
+.project, .responsive {
+  margin: auto;
 }
 
