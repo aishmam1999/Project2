@@ -1,99 +1,104 @@
 body {
-  background-color: white;
+  background-color: #A9A9A9;
   font-family: 'Roboto', sans-serif;
-
 }
 
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: 1rem;
+  padding: 2rem;
   overflow: hidden;
   background-color: #333;
   font-size: 1.5rem;
+  float: center;
 }
 
 li {
-  float: left;
+  display: inline-block;
+  padding: 1rem;
 }
 
 li a {
-  display: block;
   color: white;
   text-align: center;
-  padding: 20px 22px;
-  text-decoration: none;
 }
 
 /* Change the link color to #111 (black) on hover */
+
 li a:hover {
   background-color: #111;
 }
 
-h1{
+nav {
+  padding-bottom: 3rem;
+}
+
+h1 {
   text-align: center;
   font-size: 3rem;
 }
-p{
+
+p {
   font-size: 1.5rem;
 }
 
-h2{
+h2 {
   font-size: 2rem;
 }
 
-h3{
+h3 {
   font-size: 1.5rem;
 }
 
-h4{
+h4 {
   font-size: 4rem;
   text-align: center;
   padding-top: 7%;
 }
 
-
-.potrait{
+.potrait {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 40%;
-   max-width: 250px;
-  height: 250px;
+  max-width: 15em;
+  height: 12em;
   background-color: powderblue;
-
 }
 
-h3,h2{
+h3,
+h2 {
   text-align: center;
 }
-.school{
- border-width: 3px;
+
+.school {
+  text-align: center;
+  /*border-width: 3px;
  text-align: center;
  padding-right: 50px;
  padding-left: 50px;
   margin-right: 150px;
-  margin-left: 80px; 
+  margin-left: 80px; */
 }
 
-.experience{
-
-  border-width: 3px;
+.experience {
+  text-align: center;
+  /*border-width: 3px;
   text-align: center;
   padding-right: 150px;
   padding-left: 150px;
   margin-right: 150px;
-  margin-left: 80px;
+  margin-left: 80px;*/
 }
 
-.jiujitsu, .blockchain, .project{
+.jiujitsu,
+.blockchain,
+.project {
   border-width: 3px;
   text-align: center;
   padding-right: 100px;
   padding-left: 100px;
   margin: auto;
 }
-
 
 div.gallery {
   border: 1px solid #ccc;
@@ -142,12 +147,11 @@ div.desc {
   clear: both;
 }
 
-.start{
+.start {
   text-align: center;
-
 }
 
-.project, .responsive {
+.project,
+.responsive {
   margin: auto;
 }
-
