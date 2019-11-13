@@ -6,6 +6,7 @@
       <link rel="stylesheet" type="text/css" href="css/style.css">
       <link rel="stylesheet" href="style/normalize.css">
       <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+<script src="script/script.js"></script>
    </head>
    <body class="home_body">
       <nav>
@@ -17,13 +18,17 @@
             <li><a href="location.html">Location</a></li>
          </ul>
       </nav>
-      <div class="start container jumbotron">
-         <h4>Alif Ishmam</h4>
-         <div class="intro container">
-            <h3> <strong>Student at the Illinois Institute of Technology studying Information Technology and Management.</strong></h3>
-            <h3>Creative individual; passionate about technology, knowledge on web design Java and Python.</h3>
-            <h3> Interested in blockchain and open-source technologies</h3>
-         </div>
-      </div>
+
+<h1>My Location</h1>
+
+ <div class="container" id="map"></div>
+
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC2CKAZnm4V0-AaReIYzmH-CibeW-pp9_o&callback=initMap">
+    </script>
+
+</body>
+
+
    </body>
 </html>
